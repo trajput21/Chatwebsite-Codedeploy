@@ -9,6 +9,7 @@ phases:
       - echo "Package & Dependicies are getting installed"
       - npm -f install
       - echo "Packages have been installed"
+      - echo "This is build phase... Zipping my webpage"
       - echon "Storing Build Artifact to the Location"
 artifacts:
   type: zip
